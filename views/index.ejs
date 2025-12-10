@@ -10,7 +10,7 @@
 <body>
     <div class="create">
         <form action="/submit1" method="post">
-            <textarea name="content" rows="4" cols="50">Write your blog here</textarea>
+            <textarea name="content" rows="4" cols="25">Write your blog here.</textarea>
             <input type="submit" value="Submit" class="btn btn-dark">
         </form>
     </div>
@@ -24,7 +24,7 @@
     </div>
     <div class="edit">
         <form action="/submit2" method="post">
-            <textarea name="uContent" rows="4" cols="50"><%if (locals.bContent) { %><%= bContent %><% }%></textarea>
+            <textarea name="uContent" rows="4" cols="25"><%if (locals.bContent) { %><%= bContent %><% }%></textarea>
             <input type="submit" value="Submit" class="btn btn-dark">
         </form>
     </div>
@@ -42,4 +42,5 @@
 
     </script>
 </body>
+
 </html>
