@@ -6,7 +6,8 @@
 
 .update {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 10vw;
     gap : 10px;
 }
 
@@ -27,6 +28,7 @@ textarea {
     width: 80vw;
     height: 10vh;
 }
+
 
 
 
