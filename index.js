@@ -13,13 +13,13 @@ app.get("/", (req, res) => {
 
 app.post("/submit1", (req, res) => {
     res.render("index.ejs",
-        { const content : req.body["content"] }
+        { const bcontent : req.body["content"] }
     );
 });
 
 app.post("/submit2", (req,res) => {
     res.render("index.ejs",
-        { const content : req.body["content"] }
+        { const bcontent : req.body["ucontent"] }
     );
 });
 
@@ -27,3 +27,4 @@ app.listen(port, () => {
     console.log(`Server running on port ${port}.`);
 
 });
+
