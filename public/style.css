@@ -1,34 +1,33 @@
-.create {
+create {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-top: 10vh;
-    margin-left: 10vh;
 }
 
 .update {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap : 10px;
-    margin-left: 10vh;
 }
 
 .blog {
     display: flex;
-    justify-content: left;
-    margin-left: 10vh;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .edit {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-top: 20px;
-    margin-left: 10vh;
 }
 
 textarea {
     width: 80vw;
     height: 10vh;
 }
+
 
 
 
