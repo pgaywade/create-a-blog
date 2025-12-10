@@ -13,6 +13,8 @@
 .blog {
     display: flex;
     justify-content: center;
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
 
 .edit {
@@ -26,6 +28,8 @@ textarea {
     width: 80vw;
     height: 10vh;
 }
+
+
 
 
 
