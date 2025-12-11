@@ -16,7 +16,7 @@
     </div>
     </div>
     <div class="blog">
-        <p><% if (locals.blgContent) {%><%= blgContent %><% } %></p>
+        <p><% if (locals.blog) {%><%= blog %><% } %></p>
     </div>
     <div class="update">
         <button id="btn1" class="btn btn-dark">Edit</button>
@@ -24,7 +24,7 @@
     </div>
     <div class="edit">
         <form action="/submit2" method="post">
-            <textarea name="upddContent" rows="4" cols="25"><%if (locals.blgContent) { %><%= blhContent %><% }%></textarea>
+            <textarea name="update" rows="4" cols="25"><%if (locals.blog) { %><%= blog %><% }%></textarea>
             <input type="submit" value="Submit" class="btn btn-dark">
         </form>
     </div>
@@ -44,4 +44,5 @@
 </body>
 
 </html>
+
 
