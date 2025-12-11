@@ -19,7 +19,7 @@ app.post("/submit1", (req, res) => {
 
 app.post("/submit2", (req,res) => {
     res.render("index.ejs",
-        { const blog : req.body["update"] }
+        { const blog : req.body["edit"] }
     );
 });
 
@@ -27,6 +27,7 @@ app.listen(port, () => {
     console.log(`Server running on port ${port}.`);
 
 });
+
 
 
 
